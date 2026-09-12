@@ -83,10 +83,10 @@ public class Tumpukan {
                 Node temp = topGanjil;
                 System.out.println("berikut adalah nilai tumpukan ganjil dari atas");
                 for(int i = 0; i < jumlahGanjil; i++){
-                    System.out.println(temp.getData());
+                    System.out.println("|   " + temp.getData() + "   |");
                     temp = temp.getPtr();
                 }
-                System.out.println(" ");
+                System.out.println("----------");
             }
         } else if (jenis.equals("genap")){
             if (jumlahGenap <= 0){
@@ -95,10 +95,10 @@ public class Tumpukan {
                 Node temp = topGenap;
                 System.out.println("berikut adalah nilai tumpukan genap dari atas");
                 for(int i = 0; i < jumlahGenap; i++){
-                    System.out.println(temp.getData());
+                    System.out.println("|   " +temp.getData()+ "   |");
                     temp = temp.getPtr();
                 }
-                System.out.println(" ");
+                System.out.println("----------");
             }
         } else {
             System.out.println("input tidak valid");
