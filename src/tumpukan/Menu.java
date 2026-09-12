@@ -1,10 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 package tumpukan;
 
 import java.util.Scanner;
 
-public class Main {
+public class Menu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Tumpukan tumpukan = new Tumpukan();
