@@ -24,6 +24,8 @@ public class Main {
         tumpukan.push(88);
         tumpukan.push(99);
         tumpukan.push(-4);
+        tumpukan.push(120);
+        tumpukan.push(287);
         System.out.println();
 
         System.out.println("=== 3. TES CETAK AWAL DARI ATAS (LIFO) ===");
