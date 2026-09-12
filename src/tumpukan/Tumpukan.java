@@ -28,7 +28,6 @@ public class Tumpukan {
             if (jumlahGanjil <= 0){
                 System.out.println("Tidak bisa melakukan operasi pop karena jumlah element kurang dari 1");
                 System.out.println(" ");
-                return;
             } else {
                 Object temp = topGanjil.getData();
                 topGanjil = topGanjil.getPtr();
