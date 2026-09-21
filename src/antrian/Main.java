@@ -43,7 +43,7 @@ public class Main {
                     antrian.pop_antrian();
                     break;
 
-                case 3:2
+                case 3:
                     antrian.cetak_antrian();
                     break;
 
