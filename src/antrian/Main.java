@@ -43,10 +43,8 @@ public class Main {
                     antrian.pop_antrian();
                     break;
 
-                case 3:
-                    System.out.print("Isi antrian saat ini: [");
+                case 3:2
                     antrian.cetak_antrian();
-                    System.out.println("]");
                     break;
 
                 case 4:

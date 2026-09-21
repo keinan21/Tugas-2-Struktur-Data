@@ -43,15 +43,20 @@ public class Antrian {
     }
 
     public void cetak_antrian(){
-        Node temp = head;
-        System.out.println("ini kondisi antrian sekarang");
-        for (int i = 0; i < size; i++){
-            System.out.print("|");
-            System.out.print(" " + temp.getData() + " ");
-            System.out.print("| -> ");
-            temp = temp.getPtr();
+        if (size == 0){
+            System.out.println("Belum ada yang ngantri");
+        }else {
+            Node temp = head;
+            System.out.println("ini kondisi antrian sekarang");
+            System.out.print("DEPAN - ");
+            for (int i = 0; i < size; i++) {
+                System.out.print("|");
+                System.out.print(" " + temp.getData() + " ");
+                System.out.print("| - ");
+                temp = temp.getPtr();
+            }
+            System.out.print(" BELAKANG");
         }
-        System.out.print(" NULL");
     }
 
 }
